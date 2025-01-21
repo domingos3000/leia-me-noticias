@@ -8,7 +8,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 16px 0;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 .header .container .logo {
@@ -23,8 +24,17 @@
 
 .header .container .logo-description {
     font-size: 1.125rem;
+    text-align: center;
     color: var(--color-white-B);
     font-family: var(--secundary-font);
+}
+
+main .container {
+    display: flex;
+}
+
+main .container .posts {
+    flex: 1;
 }
 
 main .container .posts .day {
@@ -52,7 +62,7 @@ main .container .posts .day .mini-posts {
 main .container .posts .day .mini-posts
 .post {
     display: inline-block;
-    width: 32rem;
+    max-width: 32rem;
     /* background-color: red; */
     color: var(--color-white-B);
     line-height: 1.5rem;
@@ -74,4 +84,28 @@ main .container .posts .day .mini-posts
 .post .see-more-link {
     color: var(--color-blue);
     font-size: .75rem;
+}
+
+
+main .container .more-info {
+    max-width: 17.6rem;
+    border-left: 1px solid var(--color-border-A);
+    height: fit-content;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+main .container .more-info .about-us 
+h3 {
+    color: var(--color-white-A);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: .5rem;
+}
+
+main .container .more-info .about-us 
+p {
+    color: var(--color-white-B);
+    font-size: 14px;
+    margin-bottom: 1rem;
 }
