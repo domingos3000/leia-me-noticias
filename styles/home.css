@@ -1,0 +1,77 @@
+
+.header.logo {
+    margin-bottom: 4rem;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header .container .logo {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.header .container .logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header .container .logo-description {
+    font-size: 1.125rem;
+    color: var(--color-white-B);
+    font-family: var(--secundary-font);
+}
+
+main .container .posts .day {
+    margin-bottom: 2rem;
+}
+
+main .container .posts .day header {
+    display: flex;
+    gap: 0 2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+main .container .posts .day header .date {
+    color: var(--color-white-A);
+    font-family: var(--secundary-font);
+}
+
+main .container .posts .day .mini-posts {
+    margin-left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main .container .posts .day .mini-posts
+.post {
+    display: inline-block;
+    width: 32rem;
+    /* background-color: red; */
+    color: var(--color-white-B);
+    line-height: 1.5rem;
+}
+
+main .container .posts .day .mini-posts
+.post::after {
+    content: url("../assets/line.png");
+    display: flex;
+}
+
+main .container .posts .day .mini-posts
+.post .category {
+    font-weight: bold;
+    color: var(--color-yellow)
+}
+
+main .container .posts .day .mini-posts
+.post .see-more-link {
+    color: var(--color-blue);
+    font-size: .75rem;
+}

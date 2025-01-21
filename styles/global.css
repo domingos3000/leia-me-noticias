@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+}
+
+:root {
+    --color-yellow: #FFB236;
+    --color-white-A: #FFFFFF;
+    --color-white-B: #BEBEBE;
+    --color-blue: #00A8FF;
+    --color-border-A: #BEBEBE;
+    --color-border-B: #4D4D4D;
+    --color-background-A: #171A1D;
+    --color-background-B: #1E2226;
+    --color-background-C: #333940;
+    --primary-font: "roboto";
+    --secundary-font: "poppins";
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--color-background-A);
+}
