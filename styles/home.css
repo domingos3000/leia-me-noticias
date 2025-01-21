@@ -109,3 +109,18 @@ p {
     font-size: 14px;
     margin-bottom: 1rem;
 }
+
+main .container .more-info .contact .phone,
+main .container .more-info .contact .address
+
+{
+    display: flex;
+    align-items: start;
+    gap: 0 1rem;
+    color: white;
+    font-size: 14px;
+}
+
+main .container .more-info .contact p {
+    font-size: 14px;
+}
