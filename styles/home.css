@@ -48,6 +48,11 @@ main .container .posts .day header {
 
 }
 
+main .container .posts .day header img {
+    object-fit: contain;
+
+}
+
 main .container .posts .day header .date {
     color: var(--color-white-A);
     font-family: var(--secundary-font);
@@ -123,4 +128,12 @@ main .container .more-info .contact .address
 
 main .container .more-info .contact p {
     font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    
+    main .container {
+        flex-direction: column;
+    }
+
 }
