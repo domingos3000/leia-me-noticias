@@ -136,4 +136,35 @@ main .container .more-info .contact p {
         flex-direction: column;
     }
 
+    main .container .more-info {
+        border: 0;
+        margin-left: 2.5rem;
+    }
+
+    .header .logo {
+        border-bottom: 1px solid rgb(54, 54, 54);
+    }
+
+    .header .container .logo {
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: .5rem 0;
+        margin-bottom: 1rem;
+        position: fixed;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-background-A);
+    }
+
+    .header .container .logo img {
+        width: 100px;
+    }
+
+    .header .container .logo-description {
+        margin-top: 3.5rem;
+    }
 }
