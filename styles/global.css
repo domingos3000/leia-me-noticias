@@ -29,6 +29,10 @@ li, a {
     text-decoration: none;
 }
 
+a label {
+    font-size: 12px;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
